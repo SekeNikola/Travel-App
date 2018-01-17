@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:600,800);
+body {
+  margin: 0;
+  padding: 0;
+  background: #e0e0e0; }
+
+/* ==============================
+ * PLUGINS & THIRD PARTY STYLES
+ * ============================== */
+/* ==============================
+ * BASE STYLES
+ * ============================== */
+.navbar {
+  padding: 0;
+  background: #677e9c; }
+  .navbar .navbar-brand {
+    font-family: "Raleway";
+    font-weight: 800; }
+
+.jumbotron {
+  background: url(../img/BG.png) center center no-repeat;
+  background-size: cover; }
+  .jumbotron h1 {
+    font-family: "Raleway"; }
+  .jumbotron p {
+    font-family: "Raleway"; }
+
+.button {
+  background: #677e9c;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #677e9c;
+  border-radius: 20px;
+  margin-bottom: 20px; }
+  .button:hover {
+    background: #566a84;
+    transition: all 0.3s ease; }
+
+.button {
+  background: #677e9c;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: 1px solid #677e9c;
+  margin-bottom: 20px; }
+  .button:hover {
+    background: #566a84;
+    transition: all 0.3s ease; }
+
+.features {
+  background: url(../img/bg2.png) center center no-repeat;
+  background-size: cover; }
+  .features .text {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  
+
+@media only screen and (max-width: 768px) {
+  .text {
+    text-align: center; }
+
+  img {
+    display: block;
+    margin: 0 auto; } }
+.col {
+  margin-top: 100px; }
+
+  .screens{
+    text-align: center;
+  }
+
+.discover {
+  background: url(../img/bottom_bg.png) center center no-repeat;
+  background-size: cover; }
+  .discover .content {
+    padding-top: 30px; }
+  .discover .button {
+    background: #677e9c;
+    color: #fff;
+    border: 1px solid #677e9c;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px; }
+    .discover .button:hover {
+      background: #566a84;
+      transition: all 0.3s ease; }
+
+.fa {
+  color: #677e9c;
+  padding-right: 20px;
+  margin-bottom: 10px; }
+
+  @media only screen and (max-width: 425px) {
+    .screens{
+      display: flex;
+      flex-direction: column;
+    }
+
+    
+
+  }
+/* ==============================
+ * MODULE STYLES
+ * ============================== */
+
+/*# sourceMappingURL=app.css.map */
