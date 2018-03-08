@@ -2,9 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #e0e0e0;
-  overflow: hidden;
-}
+  background: #e0e0e0; }
 
 /* ==============================
  * PLUGINS & THIRD PARTY STYLES
@@ -20,7 +18,7 @@ body {
     font-weight: 800; }
 
 .jumbotron {
-  background: url(../img/BG.png) center center no-repeat;
+  background: url(../img/BG.jpg) center center no-repeat;
   background-size: cover; }
   .jumbotron h1 {
     font-family: "Raleway"; }
@@ -50,12 +48,11 @@ body {
     transition: all 0.3s ease; }
 
 .features {
-  background: url(../img/bg2.png) center center no-repeat;
+  background: url(../img/bg2.jpg) center center no-repeat;
   background-size: cover; }
   .features .text {
     margin-top: 50px;
     margin-bottom: 50px; }
-  
 
 @media only screen and (max-width: 768px) {
   .text {
@@ -67,12 +64,8 @@ body {
 .col {
   margin-top: 100px; }
 
-  .screens{
-    text-align: center;
-  }
-
 .discover {
-  background: url(../img/bottom_bg.png) center center no-repeat;
+  background: url(../img/bottom_bg.jpg) center center no-repeat;
   background-size: cover; }
   .discover .content {
     padding-top: 30px; }
@@ -92,15 +85,6 @@ body {
   padding-right: 20px;
   margin-bottom: 10px; }
 
-  @media only screen and (max-width: 425px) {
-    .screens{
-      display: flex;
-      flex-direction: column;
-    }
-
-    
-
-  }
 /* ==============================
  * MODULE STYLES
  * ============================== */
